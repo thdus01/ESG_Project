@@ -1,0 +1,235 @@
+.banner_main{ /* 메인 */
+    text-align: center;
+    display: block;
+    height: 80vh;
+    position: relative;
+    background: url(../assets/esg_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    
+    
+}
+
+.banner_explain { /* esg 설명란 */
+    width: 80vw;
+    height: 300px;
+    text-align: center;
+    justify-content : center;
+
+    align-items : center;
+    font-size: 15px;
+    background: rgba(255,255,255,.89);
+    box-shadow: 2px 2px 24px 0 rgb(0 0 0 / 10%);
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    margin-bottom: 100px;
+    opacity:0.6;
+}
+
+
+
+.banner_explain2 {
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+
+.banner_main_box { /* 버튼 div 전체 부분 */
+    margin-top: 20px;
+    text-align: center;
+    width: 95%;
+    height: auto;
+    
+    display: inline-block;
+    position: absolute;
+    bottom: 10;
+    right: 0;
+
+
+}
+
+.banner_button { /* 시작하기 버튼 div*/
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: lightblue;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.button { /*버튼 전체 div*/
+  background: #3D4C53;
+  margin: 20px auto;
+  width : 200px;
+  height : 50px;
+  line-height: 50px;
+  overflow: hidden;
+  text-align : center;
+  transition : .2s;
+  cursor : pointer;
+  border-radius: 3px;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.btnTwo { /*go! 부분 버튼 (hidden)*/
+  position : relative;
+  width : 200px;
+  height : 100px;
+  line-height: 20px;
+  margin-top: -100px;
+  padding-top: 2px;
+  background : #26A69A;
+  left : -250px;
+  transition : .3s;
+  text-decoration: none;
+}
+
+.btnText {
+  color : white;
+  transition : .3s;
+  text-decoration: none;
+}
+.btnText2 {
+  margin-top : 63px;
+  margin-right : -130px;
+  color : #FFF;
+}
+.button:hover .btnTwo{ /*When hovering over .button change .btnTwo*/
+  left: -130px;
+}
+.button:hover .btnText{ /*When hovering over .button change .btnText*/
+  margin-left : 65px;
+}
+.button:active { /*Clicked and held*/
+  box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}
+
+
+
+
+
+
+
+.banner_main_mobile{ /* 메인 */
+  text-align: center;
+  display: block;
+  height: 80vh;
+  position: relative;
+  background-color: #dcedc8;
+  width: 100vw;
+  
+}
+
+
+.banner_explain_mobile { /* esg 설명란 */
+  width: 100vw;
+  height: 300px;
+  text-align: center;
+  justify-content : center;
+  align-items : center;
+  font-size: 15px;
+  background: rgba(255,255,255,.89);
+  box-shadow: 2px 2px 24px 0 rgb(0 0 0 / 10%);
+  position: relative;
+  top:190px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-bottom: 100px;
+  opacity:0.6;
+  padding: 35px;
+}
+
+
+.banner_title {
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+
+.banner_title2 {
+  font-size: 18px;
+}
+
+.banner_explain2_mobile  {
+  font-size: 20px;  
+}
+
+
+.banner_main_box_mobile { /* 버튼 div 전체 부분 */
+  margin-top: 20px;
+  text-align: center;
+  width: 98.5%;
+  height: auto;
+  
+  display: inline-block;
+  position: absolute;
+  bottom: 10;
+  right: 0;
+
+
+}
+
+.banner_button_mobile { /* 시작하기 버튼 div*/
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  background-color: lightblue;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.button_mobile { /*버튼 전체 div*/
+background: #3D4C53;
+margin: 20px auto;
+width : 200px;
+height : 50px;
+line-height: 50px;
+overflow: hidden;
+text-align : center;
+transition : .2s;
+cursor : pointer;
+border-radius: 3px;
+box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+
+.btnTwo_mobile { /*go! 부분 버튼 (hidden)*/
+position : relative;
+width : 200px;
+height : 100px;
+line-height: 20px;
+margin-top: -100px;
+padding-top: 2px;
+background : #26A69A;
+left : -250px;
+transition : .3s;
+text-decoration: none;
+}
+
+.btnText_mobile {
+color : white;
+transition : .3s;
+text-decoration: none;
+}
+.btnText2_mobile {
+margin-top : 63px;
+margin-right : -130px;
+color : #FFF;
+}
+.button_mobile:hover .btnTwo_mobile{ /*When hovering over .button change .btnTwo*/
+left: -130px;
+}
+.button_mobile:hover .btnText_mobile{ /*When hovering over .button change .btnText*/
+margin-left : 65px;
+}
+.button_mobile:active { /*Clicked and held*/
+box-shadow: 0px 5px 6px rgba(0,0,0,0.3);
+}

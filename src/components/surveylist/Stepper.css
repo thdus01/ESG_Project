@@ -1,0 +1,71 @@
+.survey_main {
+    margin-top: 10px;
+    text-align: center;
+    /* background: url(../../assets/esg_3.jpg);
+    background-size: cover; */
+    background-color: #dcedc8;
+    /* background-attachment: fixed; */
+    /* margin-right: 20%; */
+}
+
+@media (max-width : 500px) {
+    div {
+        max-width : 500px;
+    }
+
+    footer {
+       display : none; 
+    }
+
+    .stepper {
+        display : none;
+    }
+
+    .progressBar {
+        display: none;
+    }
+}
+
+
+@media (width : 412px) 
+{
+    div{
+        max-width: 412px;
+    }
+    
+}
+.stepper_main {
+    margin-left : 3vw;
+    margin-right : 3vw;
+}
+
+.progressBar {
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.progress {
+    position: relative;
+	overflow: hidden;
+	height: 20px;
+	background-color: #eee;
+}
+
+.progressPercent {
+    font-weight: 600;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #eee;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body{
+    font-size : 1.125em;
+}

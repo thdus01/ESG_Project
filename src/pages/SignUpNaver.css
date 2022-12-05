@@ -1,0 +1,62 @@
+.naverRegister {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 100px;
+}
+
+.esg_img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+
+    
+}
+.font-naver {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.SignUpBox {
+    display: inline-block;
+    background: #FFFFFF;
+    width: 550px;
+    height: 520px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius:15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.naverlogin_1 {
+    border-bottom: 1px solid lightgray;
+    margin: 30px;
+}
+
+@media (max-width: 500px) {
+    .SignUpBox {
+        width: 90vw;
+        height: 500px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .naverlogin_1 {
+        height: 100px;
+    }
+    
+    .font-naver {
+        font-size: 13px;
+        font-weight: bold;
+    }
+  }
+
+
+
+
+
+
+
+

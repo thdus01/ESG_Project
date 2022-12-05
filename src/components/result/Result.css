@@ -1,0 +1,308 @@
+/*pc*/
+html{
+    -webkit-text-size-adjust: 100%;
+}
+
+
+div{
+    font-family: "NotoSansKR";
+}
+
+.App-header{
+    background-color: #ffffff;
+    width: 90vw;
+    height: 92vh;
+    border-radius: 15px;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vmin);
+    font-family: "NotoSansKR";
+    color: black;
+    }
+
+.result-body {
+    display: flex;
+}
+
+
+.result-item{
+    width: 44vw;
+    height: 87vh;
+    border-radius: 15px;
+    color: black;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+.result-left{
+    margin-right: 0.5vw;
+    margin-left: 2.5vw;
+    
+}
+
+
+.top{
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.mid1{
+    margin-top: 20px;
+    border-radius: 15px;
+    font-size: calc(10px + 1.5vmin);
+    font-weight: bold;
+}
+
+.grade{
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.mid2{
+    margin-top: 35px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: calc(10px + 1.5vmin);
+    font-weight: bold;
+}
+
+.bottom{
+    margin-top: 5px;
+    border-radius: 15px;
+    height: 55vh;
+    content:"";
+    font-weight: bold;
+}
+
+
+/* .bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .bottom::before{
+    content:"";
+    background-image: url(./img/A.png);
+    background-size: 40vw 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+  } */
+
+
+.container{
+    background-color: white;
+    width: 40vw;
+    height: 89vh;
+    border-radius: 15px;
+    border: 1px solid #1de9b6;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1.5vmin);
+    color: black;
+    overflow: auto;
+    
+}
+
+
+.P{
+    margin-top: 7vh;
+    
+}
+.E{
+    margin-top: 6vh;
+    
+}
+.S{
+    margin-top: 5vh;
+    
+}
+.G{
+    margin-top: 5vh;
+    
+}
+.caption{
+    font-weight: bold;
+    margin-bottom: 1.7vh;
+}
+.comment{
+    margin-top: 5vh;
+    text-align: left;
+    font-size: 14px;
+}
+
+.notice{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bar-left{
+    padding-right: 5px
+}
+.bar-right{
+    padding-left: 5px
+}
+
+.br{
+    border: 1px solid black;
+}
+
+
+.share{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.comment_tel{
+    font-size: 1rem;
+}
+
+
+/*mobile*/
+
+
+
+
+
+
+div-mobile{
+    font-family: "NotoSansKR";
+    min-height:-webkit-fill-available;
+}
+
+.App-header-mobile{
+    background-color: #ffffff;
+    width: 90vw;
+    height: 100vh;
+    border-radius: 15px;
+    margin-left: 5vw;  
+    font-size: calc(10px + 1.5vmin);
+    font-family: "NotoSansKR";
+    color: black;
+    text-align:center;
+    align-items: center;
+    justify-items: center;
+    }
+
+
+.result-item-mobile{
+    width: 44vw;
+    height: 87vh;
+    border-radius: 15px;
+    color: black;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}
+
+
+.top-mobile{
+    margin-top: 20px;
+    margin-bottom: 2vh;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mid1-mobile{
+    font-size: calc(10px + 1.5vmin);
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.grade-mobile{
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.mid2-mobile{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: calc(10px + 1.5vmin);
+    font-weight: bold;
+}
+
+.bottom-mobile{
+    margin-top: 5px;
+    border-radius: 15px;
+    height: 55vh;
+    content:"";
+    font-weight: bold;
+}
+
+
+.container-mobile{
+    background-color: white;
+    width: 92vw;
+    height: 85vh;
+    border-radius: 15px;
+    font-size: calc(10px + 1.5vmin);
+    color: black;
+    overflow: auto;
+}
+
+
+.P-mobile{
+    margin-top: 1vh;   
+}
+.E-mobile{
+    margin-top: 6vh;
+    
+}
+.S-mobile{
+    margin-top: 5vh;
+    
+}
+.G-mobile{
+    margin-top: 5vh;
+    
+}
+.caption-mobile{
+    font-weight: bold;
+    margin-bottom: 1.7vh;
+}
+.comment-mobile{
+    margin-top: 3vh;
+    font-size: 11px;
+    text-align: left;
+}
+
+.notice-mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bar-left-mobile{
+    padding-right: 5px
+}
+.bar-right-mobile{
+    padding-left: 5px
+}
+
+.br-mobile{
+    border: 1px solid black;
+}
+
+
+.share-mobile{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.comment_tel-mobile{
+    font-size: 14px;
+}
+

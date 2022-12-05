@@ -1,0 +1,228 @@
+.body_SignIn {  /* 전체 div */
+    -webkit-text-size-adjust: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../assets/esg_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.text_login {  /* title (로그인) 부분 */
+    margin-top: 70px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+    margin: 60px;
+}
+
+.login_wrapper {   /* 전체 box 부분 */
+    display: inline-block;
+    position: relative;
+    width: 700px;
+    height: 700px;
+    margin-top: 150px;
+    border-radius:22px;
+    background-color: #FFFFFF;
+    /* box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19); */
+    
+}
+
+.loginBox {  /* 로그인 박스 폼 부분 */
+    display: inline-block;
+    align-items: center;
+    
+    height: 270px;
+    width: 350px;
+    margin-bottom: 170px;
+}
+
+.text_area123 {  /* text 입력 부분별 각 div */
+    margin-top: 10px;
+    align-content: center;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    width: 18vw;
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_Login {  /* 로그인 버튼  */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background: #2289dd;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.loginInput {  /* 실질적인 정보(text) 입력 부분 */
+    margin-top: 1.2rem;
+    font-size: 15px;
+    text-align:left;
+    border: none;
+    outline: none;
+    margin: 15px;
+    width: 90%;
+}
+
+.goSignUp {  /* 회원 여부 질문 부분 */
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.goSignUp_h5 { /* 회원가입 이동 text */
+    font-weight: bold;
+    margin-top: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.findObject {  /* 비밀번호 찾기 전체 div */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    overflow: hidden;
+    font-weight: bold;
+    
+}
+
+.findObject1 {  /* 비밀번호 찾기 text */
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.textDange {
+    color: red;
+    margin: 10px;
+    font-size: 8px;
+}
+
+
+@media (max-width: 500px) {
+    .body_SignIn {  /* 전체 div */
+        overflow: hidden;
+        -webkit-text-size-adjust: 100%;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        text-align: center;
+        margin-bottom: 10px;
+        background: rgb(255, 255, 255);
+        background-size: cover;
+        background-attachment: fixed; 
+        width: 94vw;
+        height: auto;
+    }
+    
+    .text_login {  /* title (로그인) 부분 */
+        margin-top: 20vh;
+        margin-bottom: 40vh;
+        padding-bottom: 3vh;
+        border-bottom: 1px solid lightgray;
+        margin: 5vh;
+    }
+    
+    .login_wrapper {   /* 전체 box 부분 */
+        display: inline-block;
+        position: relative;
+        width: 89vw;
+        height: 70vh;
+        margin-top: 5vh;
+        border-radius:22px;
+        background-color: #FFFFFF;
+        
+    }
+    
+    .loginBox {  /* 로그인 박스 폼 부분 */
+        display: inline-block;
+        align-items: center;
+        
+        height: 40vh;
+        width: 70vw;
+    }
+    
+    .text_area123 {  /* text 입력 부분별 각 div */
+        /* margin-top: 3vh; */
+        align-content: center;
+        text-align: left;
+        border-radius: 10px;
+        margin-bottom: 2vh;
+        margin-bottom: 20px;
+        width: 70vw;
+        overflow: hidden;
+        /* height: 50px; */
+        background-color: #FFFFFF;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    .button_login{
+        height: 7vh;
+    }
+    .btn_Login {  /* 로그인 버튼  */
+        margin-top: 3.5vh;
+        width: 70vw;
+        height: 6.5vh;
+        border-radius: 5px;
+        background: #2289dd;
+        border: none;
+        font-size: 1em;
+        text-align: center;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    .loginInput {  /* 실질적인 정보(text) 입력 부분 */
+        font-size: 0.8em;
+        text-align:left;
+        border: none;
+        outline: none;
+        margin: 3.5vw;
+        width: 50vw;
+        margin-left: 20px;
+    }
+    .goSignUp {  /* 회원 여부 질문 부분 */
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    
+    .goSignUp_h5 { /* 회원가입 이동 text */
+        font-weight: bold;
+        margin-top: 10px;
+        color: blue;
+        cursor: pointer;
+    }
+    
+    .findObject {  /* 비밀번호 찾기 전체 div */
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        overflow: hidden;
+        color: rgb(164, 164, 164);
+        margin-top: 40px;
+        
+    }
+    
+    .findObject1 {  /* 비밀번호 찾기 text */
+        margin-right: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .textDange {
+        color: red;
+        margin: 10px;
+        font-size: 8px;
+    }    
+}
+

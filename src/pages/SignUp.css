@@ -1,0 +1,151 @@
+
+.body_SignUp {   /* 전체 div */
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100vw;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../assets/esg_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Signup_wrapper {  /* 회원가입 전체 박스 (white) */
+    display: inline-block;
+    background: #FFFFFF;
+    width: 1000px;
+    height: 1150px;
+    margin-top: 10%;
+    margin-bottom: 40px;
+    border-radius:22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text_Signup {  /* 회원가입 title 부분 */
+    margin-top: 70px;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid lightgray;
+    margin: 60px;
+}
+
+.SignUp_information {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signupBox {  /* 회원가입 전체 폼 */
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 270px;
+    width: 790px;
+    margin-bottom: 170px;
+
+}
+
+.label {  /* 각 label 부분 */
+    text-align:left;
+    margin-bottom: 0px;
+}
+
+.text_area {  /* 정보 입력 부분 */
+    margin-top: 20px;
+    align-content: center;
+    text-align: left;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 360px;
+    height: 50px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_SignUp{  /* 버튼 부분 */
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 348px;
+    height: 50px;
+    border-radius: 5px;
+    background: #2289dd;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.signupInput {  /* 실질적인 정보 부분 */
+    margin-top: 1.2rem;
+    font-size: 15px;
+    text-align:left;
+    border: none;
+    outline: none;
+    margin: 15px;
+    width: 330px;
+}
+
+.goSignUp {  
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.goSignUp_h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    color: blue;
+}
+
+.type_of_business {
+    margin-top: 1.2rem;
+    font-size: 15px;
+    text-align:left;
+    border: none;
+    outline: none;
+    margin: 15px;
+    width: 90%;
+    color: gray;
+}
+
+.signupData {  /* text-area (두개씩 묶음) */
+    display: flex;
+}
+
+.text_Box {
+    margin: 20px;
+}
+
+@media (max-width: 500px) {
+    .Signup_wrapper {
+        width: 90vw;
+        height: auto;
+    } 
+
+    .text_Signup {
+        margin: 50px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .signupData {  /* text-area (두개씩 묶음) */
+        display: block;
+    }
+    .text_area {
+        width: 300px;
+    }
+    .signupInput {
+        width: 270px;
+    }
+    .btn_SignUp {
+        display: block;
+        width: 70vw;
+        margin-left: 35px;
+        margin-top: 20vw;
+    }
+    input::placeholder {
+        font-size: 12px;
+    }
+    .SignUp_information {
+        margin-bottom: 50px;
+    }
+
+}

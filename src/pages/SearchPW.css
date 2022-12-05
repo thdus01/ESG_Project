@@ -1,0 +1,276 @@
+.body_searchpw {
+    /* 전체 div */
+    text-align: center;
+    margin-bottom: 60px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/esg_3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 110vh;
+}
+
+.searchpw_wrapper123 {
+    /* 하얀색 전체 박스 부분 */
+    display: inline-block;
+
+    position: relative;
+    width: 700px;
+    height: 760px;
+    margin-top: 150px;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+
+}
+
+.Search_PW {
+    margin-top: 70px;
+}
+
+.search_text {
+    /* 이메일 인증 방법 세부 설명 부분 */
+    line-height: 70px;
+    height: 70px;
+    margin: 60px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 20px;
+}
+
+.search_information {
+    /*정보 입력란 전체 div*/
+    border-bottom: 1px solid lightgray;
+    margin: 60px;
+    margin-bottom: 40px;
+}
+
+.search_email_id {
+    /* 이메일 입력란 부분 전체 div */
+    margin-bottom: 20px;
+}
+
+
+input[name=search_email] {
+    /*이메일 입력란*/
+    margin-top: 20px;
+    align-content: center;
+    text-align: left;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    padding-left: 20px;
+    font-size: 17px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+input[name=confirm_email] {
+    /* 이메일 인증 버튼 */
+    border: solid 1px #ababab;
+    border-radius: 15px;
+    margin-left: 10px;
+
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    width: 90px;
+    height: 50px;
+    background-color: #FFFFFF;
+
+}
+
+input[name=confirm-email]:hover {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+
+.search_submit:hover {
+    background-color: #dcedc8;
+
+    font-weight: bold;
+    border: none;
+}
+
+input[name=search_compName] {
+    /* 기업명 입력란 */
+
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-content: center;
+    text-align: left;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 17px;
+    width: 400px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+input[name=search_submit] {
+    /* 다음 버튼 */
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: rgb(213, 255, 213);
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+}
+
+input[name=search_submit]:hover {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media (max-width: 500px) {
+    .body_searchpw {
+        /* 전체 div */
+        text-align: center;
+        margin-bottom: 5vh;
+        background: 0;
+        width: 9.35vw;
+        margin-left: 3vw;
+        margin-right: 3vw;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 110vh;
+    }
+
+    .searchpw_wrapper123 {
+        /* 하얀색 전체 박스 부분 */
+        display: inline-block;
+
+        position: relative;
+        width: 94vw;
+        height: 70vh;
+        margin-top: 5vh;
+        border-radius: 22px;
+        background-color: #FFFFFF;
+
+    }
+
+    .Search_PW {
+        margin-top: 5vh;
+    }
+
+    .searchEmail2 {
+        height: 12vh;
+    }
+
+    .search_text {
+        /* 이메일 인증 방법 세부 설명 부분 */
+        line-height: 30px;
+        height: 80px;
+        margin-top: 4vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding: 10px;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+
+        border-top: 1px solid lightgray;
+        border-bottom: 1px solid lightgray;
+    }
+
+    .search_information {
+        /*정보 입력란 전체 div*/
+        /* border-bottom: 1px solid lightgray; */
+        margin: 5vw;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        padding-bottom: 30px;
+    }
+
+    label {
+        float: left;
+        margin-left: 45px;
+        font-size: 18px;
+    }
+
+    .inform_search {
+        font-size: 16px;
+
+    }
+
+
+
+    input[name=search_compName] {
+        /* 담당자 전화번호 입력란 */
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        align-content: center;
+        text-align: left;
+        border-radius: 15px;
+        font-size: 17px;
+
+        width: 70vw;
+        margin-left: 0;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+
+    input[name=search_email] {
+        /*이메일 입력란*/
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+        align-content: center;
+        text-align: left;
+        border-radius: 15px;
+        font-size: 17px;
+        width: 70vw;
+        margin-left: 0;
+
+        background-color: #FFFFFF;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    input[name=confirm_email] {
+        /* 이메일 인증 버튼 */
+        border: solid 1px #ababab;
+        border-radius: 15px;
+
+        cursor: pointer;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        width: 70vw;
+        height: 50px;
+        background-color: #FFFFFF;
+
+    }
+
+    /* input[name=search_submit] {  /* 다음 버튼 
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        background-color: rgb(213, 255, 213);
+        cursor: pointer;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 5vh;
+        height: 40px;
+    } */
+
+    input[name=search_submit]:hover {
+        background-color: lightgreen;
+        color: white;
+        font-weight: bold;
+    }
+
+}

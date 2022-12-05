@@ -1,0 +1,122 @@
+.header_main {  /* header 메인 */
+    background-color: white;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    top: 0;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 0.75em;
+}
+
+.header_main_box {
+    margin: 10px;
+    flex: 1;
+}
+
+.header_main_link {
+    display:flex;
+    float: right;
+}
+
+.header_main_link1{
+    float: left;
+    
+}
+
+.page_link {
+    color: lightgray;
+    float: left;
+    margin-left: 10px;
+    display: inline;
+
+    margin: 5px;
+    text-align: center;
+
+}
+
+.header_main_link2 {  /* 로그인 박스 div */
+    margin-right: 20px;
+    float: right;
+
+}
+
+.header_login {
+    text-align: center;
+    margin: 5px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* ---------------------------------------------------
+여기부터 모바일 버전 */
+
+@media (max-width: 500px) {
+
+   
+    .header_main {  /* header 메인 */
+        width: 100vw;
+        background-color: white;
+        display: flex;
+        position: relative;
+        top: 0;
+        font-size: 0.85em;
+        border-bottom: 1px solid rgb(219, 219, 219);
+        opacity: 0.75;
+    }
+    #esg_icon_image{
+        width:17vw;
+        margin-right: 0;
+    }
+    .esg_link{
+        position: relative;
+        top: 0.2em;
+    }
+    .header_main_box {
+        padding: 0;
+        margin: 0.3em;
+        margin-right: 0;
+        flex: 1;
+    }
+    
+    .header_main_link {
+        display:flex;
+        float: right;
+    }
+    
+    .header_main_link1{
+        float: left;
+    }
+    
+    .page_link {
+        color: lightgray;
+        float: left;
+        margin-left: 10px;
+        font-size: 0.85em;
+        display: inline;
+    
+        margin: 1vh;
+        text-align: center;
+    
+    }
+    
+    .header_main_link2 {  /* 로그인 박스 div */
+        margin-right: 5vw;
+        float: right;
+        font-size: 0.85em;
+    
+    }
+    
+    .header_login {
+        text-align: center;
+        margin-top: 0.6em;
+        margin-right: 0;
+        display: inline;
+        position: relative;
+        float: right;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}

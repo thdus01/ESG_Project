@@ -1,0 +1,164 @@
+.Nav_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+    width: 100vw;
+    height:70px;
+
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.Nav_sec{
+    display: flex;
+    height: 70px;
+    line-height: 50px;
+    text-align: right;
+}
+
+
+.nav_cont:hover {
+    border-top: 4px solid green;
+}
+
+.nav_cont::after {
+    border-top: 4px solid green;
+}
+
+.nav_menu {
+    display: inline-block;
+    width:auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.li_menu { 
+    display:inline-block;
+    
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+}
+
+.ul_menu {
+    text-align: center;
+    justify-content: center;
+    margin-right: 30px;
+    margin-left: 30px;
+
+}
+
+
+.li_menu:hover {
+    color: green;
+}
+
+.button {
+    color: white;
+}
+
+.page_link2 {
+    text-decoration: none;
+}
+
+.page_link2:hover {
+    color: green;
+}
+
+
+
+/* ---------------------------------------------------
+여기부터 모바일 버전 */
+
+@media (max-width: 500px) {
+
+    #last{
+        display: none;
+    }
+    .Nav_main {
+        font-size: 0.825em;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        height:6.5vh;
+        position: relative;
+        top: 0;
+        box-shadow: none;
+        
+    }
+    
+    .Nav_sec{
+        display: flex;
+        height: 5vh;
+        line-height: 0;
+        text-align: right;
+    }
+    
+    .nav_cont:hover {
+        border-top: 4px solid green;
+    }
+    
+    .nav_cont::after {
+        border-top: 4px solid green;
+    }
+    
+    .nav_menu {
+        display: inline-block;
+        width:auto;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .li_menu { 
+        display:inline-block;
+        
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        color: rgb(146, 146, 146);
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .ul_menu {
+        text-align: center;
+        justify-content: center;
+        margin-right: 5vw;
+        margin-left: 5vw;
+    }
+    
+    
+    .li_menu:hover {
+        color: green;
+    }
+    
+    .button {
+        color: white;
+    }
+    
+    .page_link2 {
+        text-decoration: none;
+        top: 1em;
+        position: relative;
+        width:30vw;
+    }
+    
+    .page_link2:hover {
+        color: green;
+    }
+    
+}

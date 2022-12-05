@@ -1,0 +1,36 @@
+.step04_survey_main {
+    margin: 30px;
+    display: inline-block;
+}
+
+.que_body {
+    display: inline-block;
+}
+
+.que {
+    float: left;
+}
+
+label.radio {
+    display: block;
+    text-align: left;
+    
+    padding: 20px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color: rgb(237, 237, 237);
+}
+
+label.radio+.radio {
+    margin-left: 0;
+}
+
+label.radio input {
+    margin-right: 10px;
+    margin-left: 30px;
+
+}
+
+.textDange {
+    color: red;
+}

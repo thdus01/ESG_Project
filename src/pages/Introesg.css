@@ -1,0 +1,399 @@
+
+body{
+  margin: 0;
+  height: calc(var(--vh, 1vh) * 100);
+}
+
+div{
+  font-family: "NotoSansKR", sans-serif; /* NotoSansKR 폰트를 적용 */
+}
+
+
+.content-header {
+  height: 200px;
+  width: 100vw;
+  position: relative;
+  background-position: top center;
+  background-color: #a7ffeb;
+  opacity: 0.9;
+  text-align: center;
+}
+.content-header::before{
+  content:"";
+  background-image: url(../assets/esg_intro.png);
+  background-size: cover;
+  min-width: 100%;
+  background-repeat: no-repeat;
+  opacity: 1;   
+  position:absolute; 
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+}
+
+.content-header strong{
+  line-height: 200px; /*div height와 같게 해야함*/
+  text-align: center;
+  display: block;
+  font-size: 50px;
+  color: white;
+}
+
+.content-body{
+  position: relative;
+ 
+  display: table;
+  width: 80vw;
+  height: 100vh;
+  margin-left: 10vw;
+  text-align: center;
+
+}
+
+.content-body-1{
+  margin-top: 50px;
+  font-size: 35px;
+}
+
+/* .line{
+  border: 1px solid black;
+  margin-top: 10px;
+  display: inline-block;
+  width: 0.1px;
+  height: 40px;
+  opacity: 0.7;
+} */
+
+.content-body-2{
+  display: flex;
+  margin-top: 50px;
+  justify-content: flex-start;
+}
+
+.content-body-2-left{
+  text-align: left;
+  float: left;
+  width: 3vw;
+  background-image: url(../assets/icon2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.content-body-2-right{
+  text-align: left;
+  float: right;
+  width: 100%;
+  font-size: 20px;
+}
+
+.content-body-3{
+  margin-top: 10px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.dot{
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  margin-bottom: 3px;
+  background-image: url(../assets/dot.png);
+  background-position: center;
+  background-size: contain;
+}
+
+.ESG{
+  color: green; 
+}
+
+.content-body-4 {
+  position: relative;
+  width: 80vw;
+  height: 50vh;
+  margin-top: 9vh;
+  margin-bottom: 13vh;
+  clear: both;
+}
+.content-body-4::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-4-mobile {
+  position: relative;
+  width: 80vw;
+  height: 30vh;
+  margin-top: 3vh;
+  clear: both;
+}
+.content-body-4-mobile::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG_mobile_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-4-mobile-2 {
+  position: relative;
+  width: 75vw;
+  height: 30vh;
+}
+.content-body-4-mobile-2::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG_mobile_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-4-mobile-3 {
+  position: relative;
+  width: 80vw;
+  height: 30vh;
+  margin-bottom: 3vh;
+  clear: both;
+}
+.content-body-4-mobile-3::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG_mobile_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-5 {
+  position: relative;
+  width: 60vw;
+  height: 50vh;
+  margin-top: 30px;
+  margin-left: 10vw;
+  margin-bottom: 45px;
+  clear: both;
+}
+.content-body-5::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-5-mobile {
+  position: relative;
+  width: 60vw;
+  height: 50vh;
+  margin-top: 10px;
+  margin-left: 10vw;
+  clear: both;
+}
+.content-body-5-mobile::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG2_mobile_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-5-mobile-2 {
+  position: relative;
+  width: 60vw;
+  height: 10vh;
+  margin-left: 10vw;
+  clear: both;
+}
+.content-body-5-mobile-2::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG2_mobile_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-5-mobile-3 {
+  position: relative;
+  width: 60vw;
+  height: 50vh;
+  margin-left: 10vw;
+  clear: both;
+}
+.content-body-5-mobile-3::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG2_mobile_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-6 {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  margin-top: 40px;
+  margin-bottom: 45px;
+  clear: both;
+}
+.content-body-6::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-6-mobile {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+.content-body-6-mobile::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG3_mobile_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+
+.content-body-7 {
+  position: relative;
+  width: 80vw;
+  height: 70vh;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  clear: both;
+}
+.content-body-7::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-7-mobile {
+  position: relative;
+  width: 66vw;
+  height: 60vh;
+  margin-top: 3vh;
+  margin-left: 7vw;
+  clear: both;
+}
+.content-body-7-mobile::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG4_mobile_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-7-mobile-2 {
+  position: relative;
+  width: 80vw;
+  height: 60vh;
+  clear: both;
+}
+.content-body-7-mobile-2::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG4_mobile_2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+.content-body-7-mobile-3 {
+  position: relative;
+  width: 66vw;
+  height: 60vh;
+  margin-left: 7vw;
+  margin-bottom: 30px;
+  clear: both;
+}
+.content-body-7-mobile-3::before{
+  content:"";
+  background-image: url(../assets/IntroduceESG4_mobile_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
+}
+
+

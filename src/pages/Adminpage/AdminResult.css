@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #FF6A89;
+    --blue: #12883f;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --black1: #222;
+    --black2: #999;
+
+}
+
+.AdminPage_body {
+   background-color: #222;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.AdminPage_main {
+    position: relative;
+    width:100vw;
+}
+
+.AdminPage_navigation {  /* 네비게이션 */
+    position: fixed;
+    width: 250px;
+    height: 100vh;
+    background: var(--blue);
+    border-left: 10px solid var(--blue);
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.main_title3 {
+    padding: 40px;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+.AdminPage_navigation ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100;
+}
+
+.AdminPage_navigation ul li {  /* 네비게이션 메뉴 */
+    position: relative;
+    width: 200vw;
+    height: 60px;
+
+    list-style: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.AdminPage_navigation ul li:hover {  /* 각 메뉴 - 반응형 */
+    background: var(--white);
+}
+
+
+.AdminPage_navigation ul li a {
+    position: relative;
+    display: block;
+    width: 100vw;
+    display: flex;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.AdminPage_navigation ul li:hover a{
+    color: var(--blue);
+}
+
+.AdminPage_navigation ul li a .icon3 {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+   
+}
+
+.AdminPage_navigation ul li a .title3 {
+       position: relative;
+       display: block;
+       padding: 0 10px;
+       height: 60px;
+       line-height: 60px;
+       text-align: start;
+}
+
+.Adminpage_dashboard3 { /* main */
+    position: absolute;
+    width: calc(100% - 250px);
+    left: 250px;
+    min-height: 100vh;
+    background: var(--white);
+    transition: 0.5s;
+    padding-left: 50px;
+}
+
+.dashboard_topbar3 {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.Admin_title3 {  /* tyopgraphy - title 부분*/
+    position: relative;
+    top:0;
+    width: 100px;
+    height: 60px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.Admin_user3 {  /* 관리자 계정 표시*/
+    position: absolute;
+    right: 0;
+    width: 150px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    cursor: pointer;
+}
+
+.table_body3 {
+    width: 65vw;
+    margin: 60px;
+    margin-left: 100px;
+}
+
+.result_table_body3 {
+    text-align: center;
+    justify-content: center;
+}
+
+.result_table_r3 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.tableListIndex3 {
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.tableListTitle3 {
+    text-align: center;
+}
+
+.result_btn3 {
+    position: relative;
+    background: lightgreen;
+    font-size: 15px;
+    border-radius: 6px;
+    height: 30px;
+    font-weight: bold;
+    width: 60px;
+    border: none;
+}
+
+.result_btn3:hover {
+    color: white;
+    background-color: #12883f;
+    
+}
+
+
+
